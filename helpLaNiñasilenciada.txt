@@ -1,0 +1,4 @@
+La niña silenciada web:
+
+colors: 
+Golden text: #c0a345

@@ -234,6 +234,7 @@
 	text-decoration: none;
 	border-radius: 5px;
 	font-weight: bold;
+	font-size: 2em;
 	transition: background-color 0.3s ease;
   }
   
@@ -296,6 +297,16 @@
 	color:#ffffff;
   }
 
+  .btn-author{
+	background: none;
+	border: none;
+	padding: 0;
+	
+  }
+  .btn-author img{
+	width: 3em; /* adjust size */
+	
+  }
 /*where to buy styles*/
 .hero-content-wtb {
 	padding: 5%;

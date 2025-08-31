@@ -172,10 +172,11 @@
 	border-style: solid;
 	border-color: #c0a345;
 	border-width: 1px;
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/*flex-direction: row;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-between;*/
 	max-width: 60%;
 	margin: auto;
 	gap: 2rem;
@@ -209,6 +210,9 @@
 	color: #ffffff;
   }
   
+  .heroEventsImage,.heroEvents-location{
+	grid-column:2;
+  }
   .heroEvents-location iframe{
 	min-width: 500px;
 	min-height:350px;
@@ -216,7 +220,13 @@
 	height:100%;
 	object-fit: cover;
   }
-
+  .heroEventsImage img{
+	min-width: 500px;
+	min-height:350px;
+	width:100%;
+	height:100%;
+	object-fit: cover;
+  }
   .btn {
 	display: inline-flex;
 	align-items:center;

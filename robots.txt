@@ -1,0 +1,9 @@
+# Bloque para todos los bots de búsqueda
+User-agent: *
+
+
+# Permitir el resto del sitio
+Allow: /
+
+# Indicar la ubicación del sitemap
+Sitemap: https://www.laninasilenciada.es/sitemap.xml
